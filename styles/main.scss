@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(243, 243, 243);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    .title {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+.container {
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid white;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 20px;
+    background: white;
+    box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.89), -8px -8px 20px 0 rgb(255, 255, 255);
+    .city-name {
+        letter-spacing: 1px;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    #countryName {
+        margin-right: 5px;
+    }
+    img {
+        width: 80%;
+        margin: 10px 0;
+    }
+    #temp {
+        font-size: 60px;
+        font-weight: 700;
+        letter-spacing: 3px;
+    }
+    #tempUnit {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    #description {
+        text-transform: capitalize;
+        font-size: 20px;
+        margin-top: 10px;
+        letter-spacing: 1px;
+        font-family: Ubuntu;
+        font-weight: bold;
+        border-top: 1px solid black;
+        padding: 10px 0;
+    }
+}
